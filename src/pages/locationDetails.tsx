@@ -92,7 +92,7 @@ export function DetalheLocalizacao() {
       <CardGrid>
         {!loading && !error && residentes.map(res => (
           <Link
-            to={`/details/${res.id}`}
+            to={`/personagensDetails/${res.id}`}
             key={res.id}
             style={{ textDecoration: 'none' }}
           >

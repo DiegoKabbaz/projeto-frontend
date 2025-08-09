@@ -85,7 +85,7 @@ export function EpisodeDetails() {
       <CardGrid>
         {characters.map(character => (
           <Link
-            to={`/details/${character.id}`}
+            to={`/personagensDetails/${character.id}`}
             key={character.id}
             style={{ textDecoration: 'none' }}
           >
