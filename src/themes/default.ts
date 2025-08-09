@@ -1,0 +1,18 @@
+export const defaultTheme = {
+  white: '#FFFFFF',
+  black: '#000000',
+  gray: '#808080',
+  primary: '#6200EE',
+  secondary: '#03DAC6',
+  error: '#B00020',
+  warning: '#FBC02D',
+  info: '#2196F3',
+  success: '#4CAF50',
+  background: '#F5F5F5',
+  textPrimary: '#212121',
+  textSecondary: '#757575',
+  textDisabled: '#BDBDBD',
+  border: '#E0E0E0',
+  shadow: 'rgba(0, 0, 0, 0.1)',
+  fontFamily: '"Roboto", sans-serif',
+} as const
